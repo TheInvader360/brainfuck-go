@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	sourcePath := flag.String("source", "programs/text/helloworld.bf", "bf source path")
+	sourcePath := flag.String("source", "fixtures/text/helloworld.bf", "bf source path")
 	debug := flag.Bool("debug", false, "enable debug output")
 	flag.Parse()
 

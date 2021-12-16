@@ -1,0 +1,9 @@
+# ignore directory
+/bin
+
+# ignore files added to directories
+transpiled/image/*
+transpiled/text/*
+# but keep the directories themselves
+!transpiled/image/.keep
+!transpiled/text/.keep
